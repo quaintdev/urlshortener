@@ -1,0 +1,21 @@
+POST http://localhost:3000/shorten HTTP/1.1
+content-type: application/json
+
+{
+    "longUrl": "https://gobyexample.com/tickers"
+}
+
+###
+POST http://localhost:3000/shorten HTTP/1.1
+content-type: application/json
+
+{
+    "longUrl": "https://www.reddit.com/r/swaywm/comments/j16f9s/how_do_i_turn_off_the_screen_when_i_lock_the/"
+}
+
+
+###
+GET http://localhost:3000/3YLBCD HTTP/1.1
+
+###
+GET http://localhost:3001/backup HTTP/1.1
