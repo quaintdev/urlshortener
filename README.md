@@ -1,16 +1,6 @@
 # URL Shortener
 
-## Installation using Docker
-1. Pull docker image of urlshortener on your local system using: 
-
-    `docker pull quaintdev/urlshortener`
-
-2. Run urlshortener using
-
-    `docker run -p 3000:3000 urlshortener`
-
-This will start server listening on port `3000`.  Server will be accessible at http://localhost:3000/.
-
+An URL shortener api implementation
 
 ## Usage
 
